@@ -3,7 +3,7 @@
 `ember install ember-aspect-image`
 
 ##Helper
-`{{img-aspect src="ember.jpeg" ratio="4:3"}}``
+`{{img-ratio src="ember.jpeg" ratio="4:3"}}``
 
 
 ## Installation
