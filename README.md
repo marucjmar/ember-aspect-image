@@ -3,7 +3,7 @@
 `ember install ember-aspect-image`
 
 ##Helper
-`{{img-aspect src="http://www.tapeta-wielobarwne-rybki.na-pulpit.com/zdjecia/wielobarwne-rybki.jpeg" ratio="4:3"}}``
+`{{img-aspect src="ember.jpeg" ratio="4:3"}}``
 
 
 ## Installation
