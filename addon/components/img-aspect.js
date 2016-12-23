@@ -3,7 +3,7 @@ const {on, inject, observer } = Ember;
 
 export default Ember.Component.extend({
   tagName: 'img',
-  aspect: "16:9",
+  ratio: "16:9",
   attributeBindings: ['src', 'alt'],
   _resizeListner: null,
 
@@ -15,8 +15,8 @@ export default Ember.Component.extend({
 
   setStyles(){
     let maxWidth = this.$().parent().width();
-    let aspect = this.get('aspect').split(':');
-    let prp = aspect[1]/aspect[0];
+    let ratio = this.get('ratio').split(':');
+    let prp = ratio[1]/ratio[0];
 
     this.$().css({width: `${maxWidth}px`, height: `${prp*maxWidth}px`});
   },
