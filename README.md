@@ -1,6 +1,6 @@
-# ember-aspect-image
+# ember-ratio-image
 
-`ember install ember-aspect-image`
+`ember install ember-ratio-image`
 
 ##Helper
 `{{img-ratio src="ember.jpeg" ratio="4:3"}}``
